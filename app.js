@@ -6,7 +6,7 @@
 var express = require('express'),
 mongoose = require('mongoose'),
 routes = require('./routes'),
-api = require('./routes/api'),
+api = require('./routes/api');
 
 
 var app = module.exports = express.createServer();
